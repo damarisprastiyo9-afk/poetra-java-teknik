@@ -395,6 +395,15 @@
             border-color: #F9A825;
             background: #FFFBEB;
         }
+
+        img[loading="lazy"] {
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        img[loading="lazy"].loaded,
+        img:not([loading="lazy"]) {
+            opacity: 1;
+        }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800 overflow-x-hidden">
@@ -438,6 +447,7 @@
                     <a href="#area-layanan" class="text-white text-lg font-bold mobile-link">Area Layanan</a>
                     <a href="#layanan" class="text-white text-lg font-bold mobile-link">Layanan</a>
                     <a href="#portfolio" class="text-white text-lg font-bold mobile-link">Portfolio</a>
+                    <a href="area-layanan.html" class="text-white text-lg font-bold mobile-link">Area Layanan</a>
                     <a href="#testimoni" class="text-white text-lg font-bold mobile-link">Testimoni</a>
                     <a href="#faq" class="text-white text-lg font-bold mobile-link">FAQ</a>
                     <a href="https://wa.me/6285729915083" target="_blank" class="btn-primary text-white px-6 py-3 rounded-full font-bold text-center mobile-link">Hubungi Kami</a>
@@ -1403,6 +1413,7 @@
                         <li><a href="#tentang" class="text-white/70 hover:text-brand-yellow transition-colors text-sm font-medium flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-brand-red"></i>Tentang Kami</a></li>
                         <li><a href="#area-layanan" class="text-white/70 hover:text-brand-yellow transition-colors text-sm font-medium flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-brand-red"></i>Area Layanan</a></li>
                         <li><a href="#portfolio" class="text-white/70 hover:text-brand-yellow transition-colors text-sm font-medium flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-brand-red"></i>Portfolio</a></li>
+                        <li><a href="area-layanan.html" class="text-white/70 hover:text-brand-yellow transition-colors text-sm font-medium flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-brand-red"></i>Area Layanan</a></li>
                         <li><a href="#testimoni" class="text-white/70 hover:text-brand-yellow transition-colors text-sm font-medium flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-brand-red"></i>Testimoni</a></li>
                         <li><a href="#faq" class="text-white/70 hover:text-brand-yellow transition-colors text-sm font-medium flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-brand-red"></i>FAQ</a></li>
                         <li><a href="#kontak" class="text-white/70 hover:text-brand-yellow transition-colors text-sm font-medium flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-brand-red"></i>Kontak</a></li>
@@ -1441,8 +1452,8 @@
                     &copy; 2025 Poetra Java Teknik. All rights reserved.
                 </p>
                 <div class="flex space-x-6">
-                    <a href="#" class="text-white/60 hover:text-brand-yellow text-sm transition-colors font-medium">Kebijakan Privasi</a>
-                    <a href="#" class="text-white/60 hover:text-brand-yellow text-sm transition-colors font-medium">Syarat & Ketentuan</a>
+                    <a href="kebijakan-privasi.html" class="text-white/60 hover:text-brand-yellow text-sm transition-colors font-medium">Kebijakan Privasi</a>
+                    <a href="syarat-ketentuan.html" class="text-white/60 hover:text-brand-yellow text-sm transition-colors font-medium">Syarat & Ketentuan</a>
                 </div>
             </div>
         </div>
