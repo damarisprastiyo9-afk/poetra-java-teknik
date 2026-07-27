@@ -303,6 +303,15 @@
             0%, 100% { opacity: 1; transform: scale(1); }
             50% { opacity: 0.5; transform: scale(1.5); }
         }
+
+        .safe-area-bottom {
+            padding-bottom: env(safe-area-inset-bottom, 0px);
+        }
+        @media (max-width: 1023px) {
+            body { padding-bottom: 60px; }
+            .whatsapp-float { bottom: 76px; right: 16px; }
+            #scroll-top { bottom: 76px; left: 16px; }
+        }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800 overflow-x-hidden">
@@ -323,7 +332,7 @@
                     <a href="#layanan" class="nav-link text-white font-bold text-sm">LAYANAN</a>
                     <a href="#portfolio" class="nav-link text-white font-bold text-sm">PORTFOLIO</a>
                     <a href="#testimoni" class="nav-link text-white font-bold text-sm">TESTIMONI</a>
-                    <a href="#kontak" class="btn-primary text-white px-6 py-2.5 rounded-full font-bold text-sm shadow-lg">HUBUNGI KAMI</a>
+                    <a href="https://wa.me/6285729915083" target="_blank" class="btn-primary text-white px-6 py-2.5 rounded-full font-bold text-sm shadow-lg">HUBUNGI KAMI</a>
                 </div>
                 
                 <button id="mobile-toggle" class="lg:hidden text-white text-2xl">
@@ -344,7 +353,7 @@
                     <a href="#layanan" class="text-white text-lg font-bold mobile-link">Layanan</a>
                     <a href="#portfolio" class="text-white text-lg font-bold mobile-link">Portfolio</a>
                     <a href="#testimoni" class="text-white text-lg font-bold mobile-link">Testimoni</a>
-                    <a href="#kontak" class="btn-primary text-white px-6 py-3 rounded-full font-bold text-center mobile-link">Hubungi Kami</a>
+                    <a href="https://wa.me/6285729915083" target="_blank" class="btn-primary text-white px-6 py-3 rounded-full font-bold text-center mobile-link">Hubungi Kami</a>
                 </div>
             </div>
         </div>
@@ -387,11 +396,11 @@
                     </p>
                     
                     <div class="flex flex-col sm:flex-row gap-4 mb-8">
-                        <a href="#layanan" class="btn-primary text-white px-8 py-4 rounded-full font-bold text-center text-lg shadow-xl">
-                            <i class="fas fa-tools mr-2"></i>Lihat Layanan
+                        <a href="https://wa.me/6285729915083" target="_blank" class="btn-primary text-white px-8 py-4 rounded-full font-bold text-center text-lg shadow-xl">
+                            <i class="fab fa-whatsapp mr-2"></i>Chat WhatsApp
                         </a>
-                        <a href="#kontak" class="btn-secondary text-white px-8 py-4 rounded-full font-bold text-center text-lg shadow-xl">
-                            <i class="fas fa-phone mr-2"></i>Konsultasi Gratis
+                        <a href="tel:+6285729915083" class="btn-secondary text-white px-8 py-4 rounded-full font-bold text-center text-lg shadow-xl">
+                            <i class="fas fa-phone mr-2"></i>Telepon Langsung
                         </a>
                     </div>
                     
@@ -528,8 +537,8 @@
                         </div>
                     </div>
                     
-                    <a href="#kontak" class="btn-primary text-white px-8 py-4 rounded-full font-bold inline-flex items-center shadow-xl">
-                        Hubungi Kami <i class="fas fa-arrow-right ml-2"></i>
+                    <a href="https://wa.me/6285729915083" target="_blank" class="btn-primary text-white px-8 py-4 rounded-full font-bold inline-flex items-center shadow-xl">
+                        <i class="fab fa-whatsapp mr-2"></i>Chat WhatsApp Sekarang <i class="fas fa-arrow-right ml-2"></i>
                     </a>
                 </div>
             </div>
@@ -573,8 +582,8 @@
                             <li class="service-list-item text-sm text-gray-700 font-medium">Perbaikan & Bongkar Pasang</li>
                             <li class="service-list-item text-sm text-gray-700 font-medium">Instalasi AC Split & Central</li>
                         </ul>
-                        <a href="#kontak" class="text-brand-red font-bold text-sm inline-flex items-center hover:underline">
-                            Konsultasi <i class="fas fa-arrow-right ml-1 text-xs"></i>
+                        <a href="https://wa.me/6285729915083?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20servis%20AC" target="_blank" class="text-brand-red font-bold text-sm inline-flex items-center hover:underline">
+                            Chat WhatsApp <i class="fas fa-arrow-right ml-1 text-xs"></i>
                         </a>
                     </div>
                 </div>
@@ -598,8 +607,8 @@
                             <li class="service-list-item text-sm text-gray-700 font-medium">Monitoring Online 24 Jam</li>
                             <li class="service-list-item text-sm text-gray-700 font-medium">Maintenance & Upgrade Sistem</li>
                         </ul>
-                        <a href="#kontak" class="text-brand-blue font-bold text-sm inline-flex items-center hover:underline">
-                            Konsultasi <i class="fas fa-arrow-right ml-1 text-xs"></i>
+                        <a href="https://wa.me/6285729915083?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20CCTV" target="_blank" class="text-brand-blue font-bold text-sm inline-flex items-center hover:underline">
+                            Chat WhatsApp <i class="fas fa-arrow-right ml-1 text-xs"></i>
                         </a>
                     </div>
                 </div>
@@ -623,8 +632,8 @@
                             <li class="service-list-item text-sm text-gray-700 font-medium">Perbaikan Konslet</li>
                             <li class="service-list-item text-sm text-gray-700 font-medium">Upgrade Sistem Kelistrikan</li>
                         </ul>
-                        <a href="#kontak" class="text-brand-yellow font-bold text-sm inline-flex items-center hover:underline">
-                            Konsultasi <i class="fas fa-arrow-right ml-1 text-xs"></i>
+                        <a href="https://wa.me/6285729915083?text=Halo%2C%20saya%20butuh%20jasa%20instalasi%20listrik" target="_blank" class="text-brand-yellow font-bold text-sm inline-flex items-center hover:underline">
+                            Chat WhatsApp <i class="fas fa-arrow-right ml-1 text-xs"></i>
                         </a>
                     </div>
                 </div>
@@ -648,8 +657,8 @@
                             <li class="service-list-item text-sm text-gray-700 font-medium">Panel ATS/AMF & Genset</li>
                             <li class="service-list-item text-sm text-gray-700 font-medium">Panel Kontrol & Capacitor Bank</li>
                         </ul>
-                        <a href="#kontak" class="text-brand-orange font-bold text-sm inline-flex items-center hover:underline">
-                            Konsultasi <i class="fas fa-arrow-right ml-1 text-xs"></i>
+                        <a href="https://wa.me/6285729915083?text=Halo%2C%20saya%20butuh%20jasa%20panel%20listrik" target="_blank" class="text-brand-orange font-bold text-sm inline-flex items-center hover:underline">
+                            Chat WhatsApp <i class="fas fa-arrow-right ml-1 text-xs"></i>
                         </a>
                     </div>
                 </div>
@@ -937,18 +946,18 @@
         </div>
         <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white font-heading mb-6">
-                Butuh Solusi Teknik?<br>
-                <span class="text-brand-yellow">Hubungi Kami Sekarang!</span>
+                Butuh Bantuan Teknik?<br>
+                <span class="text-brand-yellow">Hubungi Kami!</span>
             </h2>
             <p class="text-white/90 text-lg mb-8 max-w-2xl mx-auto font-medium">
-                Dapatkan konsultasi gratis dan penawaran harga terbaik untuk kebutuhan maintenance dan engineering Anda
+                Konsultasi GRATIS &bull; Harga terjangkau &bull; Garansi hingga 10 tahun
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="https://wa.me/6285729915083" target="_blank" class="bg-white text-brand-red px-8 py-4 rounded-full font-black text-lg inline-flex items-center justify-center hover:bg-brand-yellow hover:text-brand-blue transition-all hover:scale-105 shadow-xl">
-                    <i class="fab fa-whatsapp text-2xl mr-2"></i>WhatsApp Sekarang
+                    <i class="fab fa-whatsapp text-2xl mr-2"></i>Chat WhatsApp
                 </a>
                 <a href="tel:+6285729915083" class="border-3 border-white text-white px-8 py-4 rounded-full font-black text-lg inline-flex items-center justify-center hover:bg-white hover:text-brand-red transition-all">
-                    <i class="fas fa-phone mr-2"></i>Telepon Kami
+                    <i class="fas fa-phone mr-2"></i>Telepon Sekarang
                 </a>
             </div>
         </div>
@@ -970,8 +979,8 @@
                 </p>
             </div>
             
-            <div class="grid lg:grid-cols-3 gap-8">
-                <div class="lg:col-span-1 space-y-6 fade-in">
+            <div class="grid lg:grid-cols-2 gap-8">
+                <div class="space-y-6 fade-in">
                     <div class="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-brand-red flex items-start space-x-4">
                         <div class="w-12 h-12 bg-brand-red/10 rounded-xl flex items-center justify-center flex-shrink-0">
                             <i class="fas fa-map-marker-alt text-brand-red text-xl"></i>
@@ -982,15 +991,16 @@
                         </div>
                     </div>
                     
-                    <div class="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-brand-blue flex items-start space-x-4">
+                    <a href="https://wa.me/6285729915083" target="_blank" class="block bg-white rounded-2xl p-6 shadow-lg border-l-4 border-brand-blue flex items-start space-x-4 hover:shadow-xl transition-shadow">
                         <div class="w-12 h-12 bg-brand-blue/10 rounded-xl flex items-center justify-center flex-shrink-0">
                             <i class="fab fa-whatsapp text-brand-blue text-xl"></i>
                         </div>
                         <div>
                             <h4 class="font-black text-brand-blue font-heading mb-1">WhatsApp</h4>
                             <p class="text-gray-600 text-sm font-medium">0857-2991-5083</p>
+                            <p class="text-brand-blue text-xs font-bold mt-1">Klik untuk chat langsung &rarr;</p>
                         </div>
-                    </div>
+                    </a>
                     
                     <div class="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-brand-yellow flex items-start space-x-4">
                         <div class="w-12 h-12 bg-brand-yellow/10 rounded-xl flex items-center justify-center flex-shrink-0">
@@ -1021,6 +1031,26 @@
                             <p class="text-gray-600 text-sm font-medium">Senin - Sabtu: 08:00 - 17:00</p>
                             <p class="text-brand-red text-sm font-bold">Emergency: 24 Jam</p>
                         </div>
+                    </div>
+                </div>
+                
+                <div class="fade-in">
+                    <div class="rounded-2xl overflow-hidden shadow-lg border-4 border-brand-blue h-full min-h-[400px]">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3!2d106.7942!3d-6.4025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMjQnMDkuMCJTIDEwNsKwNDcnMzkuMSJF!5e0!3m2!1sid!2sid!4v1234567890" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0; min-height: 400px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Lokasi Poetra Java Teknik - Kalibaru, Cilodong, Depok">
+                        </iframe>
+                    </div>
+                    <div class="mt-4 text-center">
+                        <a href="https://maps.google.com/?q=Kalibaru+Cilodong+Depok" target="_blank" class="inline-flex items-center text-brand-blue font-bold text-sm hover:text-brand-red transition-colors">
+                            <i class="fas fa-directions mr-2"></i>Buka di Google Maps
+                        </a>
                     </div>
                 </div>
             </div>
@@ -1088,7 +1118,11 @@
                         </li>
                         <li class="flex items-center space-x-3">
                             <i class="fab fa-whatsapp text-brand-red"></i>
-                            <span class="text-white/70 text-sm font-medium">0857-2991-5083</span>
+                            <a href="https://wa.me/6285729915083" target="_blank" class="text-white/70 text-sm font-medium hover:text-brand-yellow transition-colors">0857-2991-5083</a>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <i class="fas fa-phone text-brand-red"></i>
+                            <a href="tel:+6285729915083" class="text-white/70 text-sm font-medium hover:text-brand-yellow transition-colors">0857-2991-5083</a>
                         </li>
                         <li class="flex items-center space-x-3">
                             <i class="fab fa-instagram text-brand-red"></i>
@@ -1118,6 +1152,20 @@
     <a href="https://wa.me/6285729915083" target="_blank" class="whatsapp-float fixed bottom-6 right-6 z-50 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:bg-green-600 transition-all hover:scale-110 border-4 border-white">
         <i class="fab fa-whatsapp text-3xl"></i>
     </a>
+
+    <!-- Mobile Sticky Bottom Bar -->
+    <div class="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-white border-t-2 border-brand-blue shadow-[0_-4px_20px_rgba(0,0,0,0.15)] safe-area-bottom">
+        <div class="flex">
+            <a href="tel:+6285729915083" class="flex-1 flex items-center justify-center gap-2 py-3.5 bg-brand-blue text-white font-bold text-sm hover:bg-brand-blue-light transition-colors">
+                <i class="fas fa-phone text-lg"></i>
+                <span>TELEPON</span>
+            </a>
+            <a href="https://wa.me/6285729915083" target="_blank" class="flex-1 flex items-center justify-center gap-2 py-3.5 bg-green-500 text-white font-bold text-sm hover:bg-green-600 transition-colors">
+                <i class="fab fa-whatsapp text-lg"></i>
+                <span>WHATSAPP</span>
+            </a>
+        </div>
+    </div>
 
     <!-- Scroll to Top Button -->
     <button id="scroll-top" class="scroll-top fixed bottom-6 left-6 z-50 bg-brand-red text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-brand-blue transition-all border-2 border-white">
@@ -1217,19 +1265,6 @@
 
         scrollTopBtn.addEventListener('click', () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
-        // Contact form
-        const contactForm = document.getElementById('contact-form');
-        const formSuccess = document.getElementById('form-success');
-
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            formSuccess.classList.remove('hidden');
-            contactForm.reset();
-            setTimeout(() => {
-                formSuccess.classList.add('hidden');
-            }, 5000);
         });
 
         // Smooth scroll for anchor links
