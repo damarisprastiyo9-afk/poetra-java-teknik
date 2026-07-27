@@ -267,14 +267,6 @@
             line-height: 1;
         }
 
-        .cartoon-float {
-            animation: cartoon-float 3s ease-in-out infinite;
-        }
-        @keyframes cartoon-float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
-        }
-
         .tagline-text {
             font-style: italic;
             font-weight: 700;
@@ -438,15 +430,11 @@
                     </div>
                 </div>
                 
-                <!-- Cartoon Character -->
-                <div class="hidden lg:flex justify-center items-end relative">
-                    <div class="cartoon-float">
-                        <img src="https://image.qwenlm.ai/public_source/8643f3e7-716d-4ee5-ba47-34062344ecd8/181540071-4c39-4bf1-b0d6-b46090c4344b.png" 
-                             alt="Teknisi Poetra Java" class="w-80 drop-shadow-2xl">
-                    </div>
-                    <div class="absolute bottom-8 left-8 bg-brand-red text-white rounded-2xl p-4 shadow-2xl transform -rotate-3">
-                        <div class="text-xs font-bold text-brand-yellow">GARANSI</div>
-                        <div class="text-2xl font-black">10 TAHUN</div>
+                <!-- Garansi Badge -->
+                <div class="hidden lg:flex justify-center items-center">
+                    <div class="bg-brand-red text-white rounded-2xl p-8 shadow-2xl text-center">
+                        <div class="text-sm font-bold text-brand-yellow mb-1">GARANSI</div>
+                        <div class="text-5xl font-black">10 TAHUN</div>
                     </div>
                 </div>
             </div>
@@ -725,12 +713,6 @@
                 </div>
                 
                 <div class="fade-in text-center">
-                    <!-- Cartoon Character -->
-                    <div class="cartoon-float mb-8">
-                        <img src="https://image.qwenlm.ai/public_source/8643f3e7-716d-4ee5-ba47-34062344ecd8/181540071-4c39-4bf1-b0d6-b46090c4344b.png" 
-                             alt="Teknisi" class="w-72 mx-auto drop-shadow-2xl">
-                    </div>
-                    
                     <!-- Info Box -->
                     <div class="bg-white rounded-2xl p-8 shadow-2xl border-4 border-brand-yellow">
                         <div class="space-y-3 mb-6">
